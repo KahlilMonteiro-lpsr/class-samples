@@ -34,12 +34,16 @@ while player_choice != (3):
     print("How many goals did the player make?")
 # makes playGoals into an integer
     playGoals = int(input())
-    
+# adds playName, playAge, playGoals into the playGame function
     playGame.append(Player(playName, playAge, playGoals))
+# asks the user what they want to do now that they made a player 
     print("What do you want to do now?")
+# makes player_choice into a integer
     player_choice = int(input())
+# makes an elif statement so if the user presses 2, it will print all players
   elif player_choice == 2:
     for k in playGame:
+# tells the code to print the playes stats
       k.printStats()
       print("What do you want to do now?")
       player_choice = int(input())
