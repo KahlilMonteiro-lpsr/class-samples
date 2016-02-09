@@ -1,14 +1,14 @@
  # makes a class function with an object
- class Player(object):
-  def __init__(self, name, age, goals):
-   self.name = name
-   self.age = age
-   self.goals = goals
-   # makes a def function to print the players stats
-   def printStats(self):
-    print("name: " + (self.name))
-    print("age: " + str(self.age))
-    print("goals: " + str(self.goals))
+class Player(object):
+ def __init__(self, name, age, goals):
+  self.name = name
+  self.age = age
+  self.goals = goals
+# makes a def function to print the players stats
+ def printStats(self):
+  print("name: " + (self.name))
+  print("age: " + str(self.age))
+  print("goals: " + str(self.goals))
 # makes a print statement to print out the functions to add players
 print("Welcome to fifa training camp, can you help us get some new players")
 print("(1) add a player")
@@ -25,7 +25,7 @@ while player_choice != (3):
 # asks the user the question that asks the user for the players name 
     print("What is the players name?")
 # makes playName into a string
-    playName = input()
+    playName = raw_input()
 # asks the user the question that asks the user for the players age
     print("what is the players age?")
 # makes playAge in an integer
