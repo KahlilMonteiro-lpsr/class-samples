@@ -61,3 +61,5 @@ def makeRow(noah):
     
 noah = turtle.Turtle()
 makeRow(noah)
+
+turtle.exitonclick()
