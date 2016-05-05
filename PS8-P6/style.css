@@ -1,0 +1,30 @@
+body {
+	background-color: #EEE;
+}
+
+h2 {
+	color: purple;
+}
+
+h3 {
+	color: black;
+}
+
+h1 {
+	color: purple;
+}
+
+#footer {
+	background-color: purple;
+	font-size: 50px;
+}
+
+#sports {
+	left: 330px;
+	right: 330px;
+	border: 3px solid white; 
+}
+
+img {
+	float: right;
+}
